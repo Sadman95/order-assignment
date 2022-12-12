@@ -1,0 +1,15 @@
+export const colors = {
+  black: "#090A22",
+  white: "#fff",
+  light: "#F6F6F5",
+  darkGrey: "#38384F",
+  grey: "#838391",
+  lightGreen: "#419EBB",
+  orange: "#EDA249",
+  purple: "#A259FF",
+  darkOrange: "#D14C32",
+  red: "#D83A34",
+  lightRed: "#CD5120",
+  green: "#1EC2A4",
+  blue: "#2D68F0",
+};
