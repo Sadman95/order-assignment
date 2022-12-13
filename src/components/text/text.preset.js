@@ -5,7 +5,7 @@ import { typography } from "../../theme/typography";
 const BASE = {
   fontFamily: typography.primary,
   fontSize: spacing[4],
-  color: colors.white,
+  color: colors.darkBlue,
 };
 
 const BASE_BOLD = {
@@ -15,7 +15,12 @@ const BASE_BOLD = {
 
 const BOLD = {
   fontFamily: typography.bold,
-  color: colors.white,
+  color: colors.darkBlue,
+};
+
+const REGULAR = {
+  fontFamily: typography.primary,
+  color: colors.grey,
 };
 
 export const presets = {
@@ -34,11 +39,11 @@ export const presets = {
     fontSize: 24,
   },
   h4: {
-    ...BASE_BOLD,
-    fontSize: 14,
+    ...REGULAR,
+    fontSize: 16,
   },
   small: {
-    ...BASE,
+    ...REGULAR,
     fontSize: 12,
   },
 };

@@ -3,8 +3,10 @@ import { StyleSheet, View } from "react-native";
 import { colors } from "../../theme/colors";
 import { spacing } from "../../theme/spacing";
 
-const Details = ({ children }) => {
-  return <View style={styles.container}>{children}</View>;
+const Details = ({ children, style }) => {
+  return (
+    <View style={StyleSheet.compose(style, styles.container)}>{children}</View>
+  );
 };
 
 const styles = StyleSheet.create({
